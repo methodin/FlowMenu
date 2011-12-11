@@ -10,7 +10,7 @@ public FlowMenu menu;
 
 // Init objects
 public void init() {
-	    menu = new FlowMenu(options.camera, FlowMenu.FLOAT, FlowMenu.CENTER);
+		menu = new FlowMenu(options.camera, FlowMenu.FLOAT, FlowMenu.CENTER);
 
 	    // Preloaded texture
         final SpriteMenuItem nextMenuItem = new SpriteMenuItem(Options.MENU_NEXT, textureNext);
